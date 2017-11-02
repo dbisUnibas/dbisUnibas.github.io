@@ -44,9 +44,6 @@
 <body>
 <div class="container">
 
-
-
-
     <!--  title -->
     <div class="row">
       <h1>
@@ -63,19 +60,15 @@
     <!--  introduction -->
     <div class="row">
         <p>This is the github website of the Databases and Information Systems Research (DBIS) Group at the University of Basel. The main focus of the DBIS group, University of Basel, is the development of novel database concepts and their application to large-scale distributed information systems, in particular to Data Management in the Cloud, Multimedia Information Retrieval, and Service-oriented Architectures & Process-based Systems (Workflows). From a technical perspective, this includes aspects of distribution, reliability, scalability, mobility, heterogeneity, dynamic adaptability, and semantics. The results of this work are applied to various fields like Crowdsourcing applications, e-Health or e-Science. </p>
-        <p>Contact us at <span id="dbis-email"><noscript><span class="rtol">hc.sabinu@sc-sibd</span></noscript></span> for questions or visit our website.</p>
+        <p>Contact us at <span id="dbis-email"><noscript><span class="rtol">hc.sabinu@sc-sibd</span></noscript></span> for questions or visit <a href="http://dbis.cs.unibas.ch">our website</a>.</p>
         <script>$("#dbis-email").html(rot13("<n uers=\"znvygb:qovf-pf@havonf.pu\" gnetrg=\"_oynax\">qovf-pf@havonf.pu</n>"));</script>
-        <a href="http://dbis.cs.unibas.ch" class="waves-effect waves-light btn"><i class="material-icons right">chevron_right</i>dbis.cs.unibas.ch</a>
+        
     </div>
 </div>
 
-<hr/>
-
+<div style="height: 75px"></div>
 <!--  projects -->
 <div class="container">
-    <div class="row" style="margin-top:30px;">
-        <h2>Open Source Projects</h2>
-    </div>
     
     
     <!--  vitrivr -->
@@ -84,53 +77,89 @@
         <div class="col s12 m8 l6"><img src="images/vitrivr.png" alt="vitrivr Logo" style="width:100%; max-width:400px;" /></div>
     </div>	
     <div class="row">
-      <p>With the tremendous increase of video recording devices and the resulting abundance of digital video, finding a particular video sequence in ever-growing collections is more and more becoming a major challenge. Existing approaches to retrieve videos mostly still rely on text-based retrieval techniques to find desired sequences. With vitrivr, we present you a fully working system for indexing and retrieving video data based on the content.</p> 
-      <p>vitrivr builds on the two projects Cineast and ADAM. Find more details on the corresponding pages.</p>
+      <p>With the tremendous increase of recording devices and the resulting abundance of digital images, audio files and videos, finding a particular one in ever-growing collections is more and more becoming a major challenge. Existing approaches to retrieve multimedia mostly still rely on text-based retrieval techniques to find desired sequences. With vitrivr, we present you a fully working system for indexing and retrieving image, audio, video and 3D-model data based on the content.</p> 
+	  
+      <p>vitrivr consists of ADAMpro, Cineast and Vitrivr NG. Find more details on the corresponding pages. For more information, visit the project website: <a href="http://www.vitrivr.org">vitrivr.org</a></p>
     </div>
     
     <div class="row">  
+	
+	<!--  adampro -->
+       <div class="col s12 m4">
+         <div class="card blue-grey darken-1">
+           <div class="card-image">
+             <img src="images/adam.jpg" alt="ADAM" />
+             <span class="card-title">ADAMpro</span>
+           </div>
+           <div class="card-content white-text" style="height: 180px">
+             <p>ADAMpro is a database system to store and retrieve multimedia data. It provides Boolean retrieval and similarity search and makes use of a various indexing methods for efficient retrieval.</p>
+           </div>
+           <div class="card-action">
+             <a href="https://github.com/vitrivr/ADAMpro">ADAMpro on GitHub</a>
+
+           </div>
+         </div>
+       </div>
+	
        <!--  cineast -->
-       <div class="col s12 m4 offset-m2">
+       <div class="col s12 m4">
          <div class="card blue-grey darken-1">
            <div class="card-image">
                <img src="images/cineast.jpg" alt="Cineast" />
                <span class="card-title">Cineast</span>
            </div>
-           <div class="card-content white-text">
-             <p>Cineast is a multi-feature sketch-based content video retrieval engine. It is capable of retrieving video sequences based on edge or color sketches and sketch-based motion queries.</p>
+           <div class="card-content white-text" style="height: 180px">
+             <p>Cineast is a multi-feature sketch-based content multimedia retrieval engine. It is capable of retrieving images, audio, videos and 3D-models based on sketches or example objects.</p>
            </div>
            <div class="card-action">
-             <a href="https://github.com/dbisUnibas/cineast">Repository</a>
-             <a href="https://github.com/dbisUnibas/cineast/wiki">Wiki</a>
-             <a href="https://github.com/dbisUnibas/vitrivr-ui">Cineast UI</a>
+             <a href="https://github.com/vitrivr/cineast">Cineast on GitHub</a>
            </div>
          </div>
        </div>
 
-       <!--  adam -->
+       <!--  vitrivr-ng -->
        <div class="col s12 m4">
          <div class="card blue-grey darken-1">
            <div class="card-image">
-             <img src="images/adam.jpg" alt="ADAM" />
-             <span class="card-title">ADAM</span>
+             <img src="images/vitrivr-ng.jpg" alt="Vitrivr NG" />
+             <span class="card-title">Vitrivr NG</span>
            </div>
-           <div class="card-content white-text">
-             <p>ADAM is a database system to store and retrieve multimedia data. It provides Boolean retrieval and similarity search and makes use of a VA-File indexing for efficient retrieval.</p>
+           <div class="card-content white-text" style="height: 180px">
+             <p>Vitrivr NG is a web-based user interface for searching and browsing mixed multimedia collections.</p>
            </div>
            <div class="card-action">
-             <a href="https://github.com/dbisUnibas/adam">Repository</a>
-             <a href="https://github.com/dbisUnibas/adam/wiki">Wiki</a>
-             <a href="https://github.com/dbisUnibas/adampro">ADAMpro</a>
+             <a href="https://github.com/vitrivr/vitrivr-ng">Vitrivr NG on GitHub</a>
            </div>
          </div>
        </div>
       
      </div>
      
-     <div class="row">
-         <a href="http://www.vitrivr.org" class="waves-effect waves-light btn"><i class="material-icons right">chevron_right</i>vitrivr.org</a>
+</div>
+
+<div style="height: 75px"></div>
+<div class="container">
+
+    <!--  title -->
+    <div class="row">
+      <h2>
+          ReqMan
+      </h2>
+    </div>
+
+
+
+
+    <!--  introduction -->
+    <div class="row">
+        <p>
+		ReqMan, short for Requirements Manager is a JavaFX application to manage (project) requirements. It can be used to track the progress of projects in various contexts. We currently use it primarely for the 'Programming Project' Lecture. The entire project is available on <a href="https://github.com/dbisUnibas/ReqMan">GitHub</a>.
+		</p>
+        
+        
     </div>
 </div>
+
 
 <!--  footer -->	
 <footer class="page-footer blue-grey darken-2">
@@ -154,7 +183,7 @@
 </div>
 <div class="footer-copyright">
   <div class="container">
-      2016, Databases and Information Systems research group, University of Basel.
+      2017, Databases and Information Systems research group, University of Basel.
   </div>
 </div>
 </footer>
